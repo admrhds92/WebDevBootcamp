@@ -21,21 +21,87 @@
             <input type="password" placeholder="enter password" id="password" name="password">
         </div>
         <input type="color">
-        <input type="number" placeholder="enter number">
+        <div>
+            <input type="number" placeholder="enter number" name="num" min="1" max="1000">
+        </div>
+
 
         <button>Submit</button>
 
     </form>
+    <hr>
 
     <form action="https://www.reddit.com/search">
         <input type="text" name="q">
         <button>Search Reddit</button>
     </form>
+    <hr>
 
     <form action="https://www.google.com/search">
         <input type="text" name="q">
         <button>Search Google</button>
     </form>
+    <!--   Checkbox -->
+    <hr>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree to everything</label>
+        <button>submit</button>
+        <hr>
+
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="XS">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="M">
+            <label for="l">L:</label>
+            <input type="radio" name="size" id="l" value="L">
+        </p>
+    </form>
+    <hr>
+
+    <form action="/food">
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="null">---Please choose and option---</option>
+                <option value="fish">fish</option>
+                <option value="steak">steak</option>
+                <option value="chicken">chicken</option>
+                <option value="tofu">tofu</option>
+            </select>
+            <button>Submit</button>
+        </p>
+    </form>
+    <hr>
+
+    <h2>Range Selector</h2>
+    <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input type="range" id="cheese" min="1" max="101" step="25" value="75" name="cheese-level">
+    </p>
+
+    <hr>
+
+    <p>
+        <label for="textarea">Tell us your story</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="50" rows="20" placeholder="Type something here"></textarea>
+    </p>
+    <hr>
+    <form action="/dummy">
+        <h2>Forms Demo</h2>
+        <label for="first">Enter your first name</label>
+        <input type="text" name="first" id="first" required>
+
+        <label for="username">Username Please</label>
+        <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+
+        <label for="telephone">telephone Please</label>
+        <input type="tel" name="telephone" id="telephone" required>
+        <button>Submit</button>
+    </form>
+
 </body>
 
 </html>
