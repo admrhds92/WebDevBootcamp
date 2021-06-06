@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(34, 33, 33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  border: 2px solid orange;
+  padding: 1em 2em;
+  font-size: 1em;
+  /* margin: 10px auto; */
+  background: none;
+  color: orange;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.35s, transform 30s;
+  transition-timing-function: steps(30);
+}
+
+button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  transform: scale(50);
+}

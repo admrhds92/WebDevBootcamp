@@ -1,11 +1,11 @@
 button {
   font-size: 1rem;
   background-color: #1e6091;
-  color: rgb(218, 101, 101);
+  color: #e76f51;
 }
 
 #signup {
-  color: rgb(218, 101, 101);
+  color: #e76f51;
 
   background-color: #d9ed92;
 }
@@ -43,7 +43,7 @@ a:hover {
 }
 
 footer a {
-  color: rgb(218, 101, 101);
+  color: #e76f51;
 }
 
 footer > a {
@@ -51,7 +51,7 @@ footer > a {
 }
 
 input[type="password"] {
-  color: rgb(218, 101, 101);
+  color: #e76f51;
 }
 
 section.post {
@@ -68,5 +68,5 @@ section.post {
 }
 
 .post:nth-of-type(2n) {
-  background-color: rgb(243, 136, 136);
+  background-color: #e76f51;
 }

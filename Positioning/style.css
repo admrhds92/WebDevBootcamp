@@ -1,0 +1,48 @@
+section {
+}
+
+div {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#static div {
+  background-color: crimson;
+}
+#relative div {
+  background-color: gray;
+}
+#absolute div {
+  background-color: green;
+}
+#fixed div {
+  background-color: magenta;
+}
+
+#static #middle {
+  position: static;
+  top: 1px;
+  left: 1px;
+  background-color: cornflowerblue;
+}
+#relative #middle {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background-color: cornflowerblue;
+}
+
+#absolute #middle {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  background-color: cornflowerblue;
+}
+#fixed #middle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: cornflowerblue;
+}
